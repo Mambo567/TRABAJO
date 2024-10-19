@@ -1,0 +1,7 @@
+Para crear un nuevo entorno en conda en la Terminal:
+conda create -n nombre_archivo.env python = numerodelaversion ej python = 3.10 → para crear (que no hayan espacios → python=3.11
+where python para saber la ruta o wich python
+conda active nombre_archivo.env → para acceder a la carpeta desde ahí poner 
+jupyter notebook → para acceder a jupyter notebook
+Y si no se abre → pip install jupyter notebook si no funciona con pip, usar pip3
+Y ya de ahí volver a abrir jupyter → jupyter notebook
