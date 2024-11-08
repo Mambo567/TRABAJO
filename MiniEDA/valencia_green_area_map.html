@@ -1,0 +1,2196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_250c5e1c27f9ff79213c012e491e83ab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_250c5e1c27f9ff79213c012e491e83ab" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_250c5e1c27f9ff79213c012e491e83ab = L.map(
+                "map_250c5e1c27f9ff79213c012e491e83ab",
+                {
+                    center: [39.4699, -0.3763],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4438b518ed827fc04ca923269d122355 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4438b518ed827fc04ca923269d122355.addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+            var circle_marker_62f66771e43ac262badb8b160748ce0b = L.circleMarker(
+                [39.46545831420329, -0.3423142656552503],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_19bc65ba5613363be08513853737fb8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cae24bfa24613d0561c3ee290ee3517e = $(`<div id="html_cae24bfa24613d0561c3ee290ee3517e" style="width: 100.0%; height: 100.0%;">AIORA: 60321.10 m² of green area</div>`)[0];
+                popup_19bc65ba5613363be08513853737fb8c.setContent(html_cae24bfa24613d0561c3ee290ee3517e);
+            
+        
+
+        circle_marker_62f66771e43ac262badb8b160748ce0b.bindPopup(popup_19bc65ba5613363be08513853737fb8c)
+        ;
+
+        
+    
+    
+            var circle_marker_646a94cb106834d838e789b48777cd75 = L.circleMarker(
+                [39.468456344561616, -0.3515550451411888],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0d8dde22fa42aace3a62aa1f6cbea36d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7d093cab4a89664dc79242e73d56be = $(`<div id="html_7f7d093cab4a89664dc79242e73d56be" style="width: 100.0%; height: 100.0%;">ALBORS: 14198.09 m² of green area</div>`)[0];
+                popup_0d8dde22fa42aace3a62aa1f6cbea36d.setContent(html_7f7d093cab4a89664dc79242e73d56be);
+            
+        
+
+        circle_marker_646a94cb106834d838e789b48777cd75.bindPopup(popup_0d8dde22fa42aace3a62aa1f6cbea36d)
+        ;
+
+        
+    
+    
+            var circle_marker_8ddfc8e96eb5ea7e2c7701a2e50eafd8 = L.circleMarker(
+                [39.46491506981963, -0.38514854122786163],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_474dbbd535e92e8daaabcfb3cc6c9546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ea6084042c49ecebda50ff36a3cb52e = $(`<div id="html_6ea6084042c49ecebda50ff36a3cb52e" style="width: 100.0%; height: 100.0%;">ARRANCAPINS: 24065.40 m² of green area</div>`)[0];
+                popup_474dbbd535e92e8daaabcfb3cc6c9546.setContent(html_6ea6084042c49ecebda50ff36a3cb52e);
+            
+        
+
+        circle_marker_8ddfc8e96eb5ea7e2c7701a2e50eafd8.bindPopup(popup_474dbbd535e92e8daaabcfb3cc6c9546)
+        ;
+
+        
+    
+    
+            var circle_marker_4b56b8a330b810497382bbbae3c40672 = L.circleMarker(
+                [39.49352116163451, -0.39023440386425623],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_54d9e4b8515a26098b647ff7ae67fbef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49d8786cef2d92e307b22fa5860fe2fb = $(`<div id="html_49d8786cef2d92e307b22fa5860fe2fb" style="width: 100.0%; height: 100.0%;">BENICALAP: 142730.08 m² of green area</div>`)[0];
+                popup_54d9e4b8515a26098b647ff7ae67fbef.setContent(html_49d8786cef2d92e307b22fa5860fe2fb);
+            
+        
+
+        circle_marker_4b56b8a330b810497382bbbae3c40672.bindPopup(popup_54d9e4b8515a26098b647ff7ae67fbef)
+        ;
+
+        
+    
+    
+            var circle_marker_ca656df56dba0b908dabdb4d64cdb322 = L.circleMarker(
+                [39.529485774934514, -0.3851816216685466],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_03229254f1f3fa17cecd125307b0590f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_619a74d797c4b97370f9f8578f4912f3 = $(`<div id="html_619a74d797c4b97370f9f8578f4912f3" style="width: 100.0%; height: 100.0%;">BENIFARAIG: 2697.05 m² of green area</div>`)[0];
+                popup_03229254f1f3fa17cecd125307b0590f.setContent(html_619a74d797c4b97370f9f8578f4912f3);
+            
+        
+
+        circle_marker_ca656df56dba0b908dabdb4d64cdb322.bindPopup(popup_03229254f1f3fa17cecd125307b0590f)
+        ;
+
+        
+    
+    
+            var circle_marker_b02b808b1807b16bd11699ae6bc69f3f = L.circleMarker(
+                [39.49516563300531, -0.40431423442053377],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_f72b8366a223257b455869a8eed82015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_496bf1eec841b2d77eefe047ccc57481 = $(`<div id="html_496bf1eec841b2d77eefe047ccc57481" style="width: 100.0%; height: 100.0%;">BENIFERRI: 46454.46 m² of green area</div>`)[0];
+                popup_f72b8366a223257b455869a8eed82015.setContent(html_496bf1eec841b2d77eefe047ccc57481);
+            
+        
+
+        circle_marker_b02b808b1807b16bd11699ae6bc69f3f.bindPopup(popup_f72b8366a223257b455869a8eed82015)
+        ;
+
+        
+    
+    
+            var circle_marker_60c91fdc7cdfbb3aeb917efc0182bd46 = L.circleMarker(
+                [39.48456179528646, -0.3593262479536755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d6ede7f292d0ee3ba2f72920fa3597e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0391b1822e71aa8a04c0b1f4efd2f4 = $(`<div id="html_5c0391b1822e71aa8a04c0b1f4efd2f4" style="width: 100.0%; height: 100.0%;">BENIMACLET: 45787.38 m² of green area</div>`)[0];
+                popup_d6ede7f292d0ee3ba2f72920fa3597e1.setContent(html_5c0391b1822e71aa8a04c0b1f4efd2f4);
+            
+        
+
+        circle_marker_60c91fdc7cdfbb3aeb917efc0182bd46.bindPopup(popup_d6ede7f292d0ee3ba2f72920fa3597e1)
+        ;
+
+        
+    
+    
+            var circle_marker_c6c498bb921c48daf0cd8eff9129cf87 = L.circleMarker(
+                [39.5011753177221, -0.4209842710735869],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0d7d6ae745612f8088ece1478e6f1dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3022d98fac8287a5720bb562cc87311d = $(`<div id="html_3022d98fac8287a5720bb562cc87311d" style="width: 100.0%; height: 100.0%;">BENIMAMET: 76452.11 m² of green area</div>`)[0];
+                popup_0d7d6ae745612f8088ece1478e6f1dc9.setContent(html_3022d98fac8287a5720bb562cc87311d);
+            
+        
+
+        circle_marker_c6c498bb921c48daf0cd8eff9129cf87.bindPopup(popup_0d7d6ae745612f8088ece1478e6f1dc9)
+        ;
+
+        
+    
+    
+            var circle_marker_c8645cb86e89dd7c90e857ecd0caeebd = L.circleMarker(
+                [39.471250727297644, -0.33754884672016205],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5c1ae1d1fdc10a29f611db80183afe80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8cdc456bce6e5c71e255f84b0baafb4 = $(`<div id="html_d8cdc456bce6e5c71e255f84b0baafb4" style="width: 100.0%; height: 100.0%;">BETERO: 62849.99 m² of green area</div>`)[0];
+                popup_5c1ae1d1fdc10a29f611db80183afe80.setContent(html_d8cdc456bce6e5c71e255f84b0baafb4);
+            
+        
+
+        circle_marker_c8645cb86e89dd7c90e857ecd0caeebd.bindPopup(popup_5c1ae1d1fdc10a29f611db80183afe80)
+        ;
+
+        
+    
+    
+            var circle_marker_a9dcfdccb13442bfa97db734c7f9551e = L.circleMarker(
+                [39.51631594197618, -0.38911737925372275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_99bc7ace801617fa0d940d98b6a4d36e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f96c947e7c6da14d3e1e2db1a0307b8 = $(`<div id="html_8f96c947e7c6da14d3e1e2db1a0307b8" style="width: 100.0%; height: 100.0%;">BORBOTO: 4477.77 m² of green area</div>`)[0];
+                popup_99bc7ace801617fa0d940d98b6a4d36e.setContent(html_8f96c947e7c6da14d3e1e2db1a0307b8);
+            
+        
+
+        circle_marker_a9dcfdccb13442bfa97db734c7f9551e.bindPopup(popup_99bc7ace801617fa0d940d98b6a4d36e)
+        ;
+
+        
+    
+    
+            var circle_marker_f1b20a3beea939b31533a5d188efa79d = L.circleMarker(
+                [39.47488410229445, -0.38589812665747386],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_ebdd07605375ec0b4c0f142312468cd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71a5da2da55c6a52eb5788dce7417824 = $(`<div id="html_71a5da2da55c6a52eb5788dce7417824" style="width: 100.0%; height: 100.0%;">BOTANIC: 2407.29 m² of green area</div>`)[0];
+                popup_ebdd07605375ec0b4c0f142312468cd0.setContent(html_71a5da2da55c6a52eb5788dce7417824);
+            
+        
+
+        circle_marker_f1b20a3beea939b31533a5d188efa79d.bindPopup(popup_ebdd07605375ec0b4c0f142312468cd0)
+        ;
+
+        
+    
+    
+            var circle_marker_45de3e348a3e9161dbed296b42609709 = L.circleMarker(
+                [39.46904434023112, -0.33046781565303474],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0a2f50bf16acd5ebdaae4b11911c811b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_415fa6ca9ee19290cbd97390c33d0f3a = $(`<div id="html_415fa6ca9ee19290cbd97390c33d0f3a" style="width: 100.0%; height: 100.0%;">CABANYAL-CANYAMELAR: 119549.71 m² of green area</div>`)[0];
+                popup_0a2f50bf16acd5ebdaae4b11911c811b.setContent(html_415fa6ca9ee19290cbd97390c33d0f3a);
+            
+        
+
+        circle_marker_45de3e348a3e9161dbed296b42609709.bindPopup(popup_0a2f50bf16acd5ebdaae4b11911c811b)
+        ;
+
+        
+    
+    
+            var circle_marker_4eff2ee1f879311bd1e1e8aa8b299ab4 = L.circleMarker(
+                [39.48846499004603, -0.35603460700161443],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_16f607e1991dc0190e310b5690427642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61dbd9fe33e070141db356a3357bf0c1 = $(`<div id="html_61dbd9fe33e070141db356a3357bf0c1" style="width: 100.0%; height: 100.0%;">CAMI DE VERA: 25216.37 m² of green area</div>`)[0];
+                popup_16f607e1991dc0190e310b5690427642.setContent(html_61dbd9fe33e070141db356a3357bf0c1);
+            
+        
+
+        circle_marker_4eff2ee1f879311bd1e1e8aa8b299ab4.bindPopup(popup_16f607e1991dc0190e310b5690427642)
+        ;
+
+        
+    
+    
+            var circle_marker_26af72a6755308940d09b0b55b203239 = L.circleMarker(
+                [39.46409096495963, -0.3516083074297712],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_47451c87f3048e0a13707c5e9e8f5828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b3d57529b65ab5e4ea312eff9d41920 = $(`<div id="html_4b3d57529b65ab5e4ea312eff9d41920" style="width: 100.0%; height: 100.0%;">CAMI FONDO: 11447.90 m² of green area</div>`)[0];
+                popup_47451c87f3048e0a13707c5e9e8f5828.setContent(html_4b3d57529b65ab5e4ea312eff9d41920);
+            
+        
+
+        circle_marker_26af72a6755308940d09b0b55b203239.bindPopup(popup_47451c87f3048e0a13707c5e9e8f5828)
+        ;
+
+        
+    
+    
+            var circle_marker_88130bdca8ab5f81fdb80063678bc744 = L.circleMarker(
+                [39.44411461212828, -0.39176186932763163],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_3277658da5b98e385b409b6fe9725ab4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cfc5021bb940c90bb1ce5116f2f24dc = $(`<div id="html_5cfc5021bb940c90bb1ce5116f2f24dc" style="width: 100.0%; height: 100.0%;">CAMI REAL: 180498.84 m² of green area</div>`)[0];
+                popup_3277658da5b98e385b409b6fe9725ab4.setContent(html_5cfc5021bb940c90bb1ce5116f2f24dc);
+            
+        
+
+        circle_marker_88130bdca8ab5f81fdb80063678bc744.bindPopup(popup_3277658da5b98e385b409b6fe9725ab4)
+        ;
+
+        
+    
+    
+            var circle_marker_06aea8351702a1d4cf0d27a352dbe8dd = L.circleMarker(
+                [39.481249758018734, -0.3960731105830962],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_516162d5e1f367d86e6fa0a623972a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aabbcaed95b10a96e819cd39642c86c = $(`<div id="html_3aabbcaed95b10a96e819cd39642c86c" style="width: 100.0%; height: 100.0%;">CAMPANAR: 82864.41 m² of green area</div>`)[0];
+                popup_516162d5e1f367d86e6fa0a623972a42.setContent(html_3aabbcaed95b10a96e819cd39642c86c);
+            
+        
+
+        circle_marker_06aea8351702a1d4cf0d27a352dbe8dd.bindPopup(popup_516162d5e1f367d86e6fa0a623972a42)
+        ;
+
+        
+    
+    
+            var circle_marker_bbc90d4d452d39124d5f1c754c98d3b7 = L.circleMarker(
+                [39.47829614065546, -0.3799785994430918],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0e39b1ce284c563ea4c6dde7bcc5c0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5272f9392f4e5ee912931ef304641593 = $(`<div id="html_5272f9392f4e5ee912931ef304641593" style="width: 100.0%; height: 100.0%;">CARME: 22388.08 m² of green area</div>`)[0];
+                popup_0e39b1ce284c563ea4c6dde7bcc5c0c4.setContent(html_5272f9392f4e5ee912931ef304641593);
+            
+        
+
+        circle_marker_bbc90d4d452d39124d5f1c754c98d3b7.bindPopup(popup_0e39b1ce284c563ea4c6dde7bcc5c0c4)
+        ;
+
+        
+    
+    
+            var circle_marker_f7273f9fb3ad765650cab5c8c6a27eee = L.circleMarker(
+                [39.517190303925986, -0.3780343483916087],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_04fdffb48f42baacfa2ccff0c2990c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50cb150d147b2b1ebcffc9f0d36dd641 = $(`<div id="html_50cb150d147b2b1ebcffc9f0d36dd641" style="width: 100.0%; height: 100.0%;">CARPESA: 2504.56 m² of green area</div>`)[0];
+                popup_04fdffb48f42baacfa2ccff0c2990c53.setContent(html_50cb150d147b2b1ebcffc9f0d36dd641);
+            
+        
+
+        circle_marker_f7273f9fb3ad765650cab5c8c6a27eee.bindPopup(popup_04fdffb48f42baacfa2ccff0c2990c53)
+        ;
+
+        
+    
+    
+            var circle_marker_cfb439f75e5d628570f00eac78603516 = L.circleMarker(
+                [39.42842241993328, -0.36258825485911733],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5a05c0c6b0d46b81f35a4fe5fb2b30e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9611d5c5f7363118ab84890f183079e0 = $(`<div id="html_9611d5c5f7363118ab84890f183079e0" style="width: 100.0%; height: 100.0%;">CASTELLAR-L'OLIVERAL: 7936.67 m² of green area</div>`)[0];
+                popup_5a05c0c6b0d46b81f35a4fe5fb2b30e2.setContent(html_9611d5c5f7363118ab84890f183079e0);
+            
+        
+
+        circle_marker_cfb439f75e5d628570f00eac78603516.bindPopup(popup_5a05c0c6b0d46b81f35a4fe5fb2b30e2)
+        ;
+
+        
+    
+    
+            var circle_marker_308975b19eb1590e0aa1a5d4e57dcb76 = L.circleMarker(
+                [39.470833576728594, -0.3714657398139257],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_8396e72f2357eb9902bf642fd14c3b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41e873acf545b362b14bc6e54a6f7f2e = $(`<div id="html_41e873acf545b362b14bc6e54a6f7f2e" style="width: 100.0%; height: 100.0%;">CAUCE DEL TURIA: 1220814.99 m² of green area</div>`)[0];
+                popup_8396e72f2357eb9902bf642fd14c3b44.setContent(html_41e873acf545b362b14bc6e54a6f7f2e);
+            
+        
+
+        circle_marker_308975b19eb1590e0aa1a5d4e57dcb76.bindPopup(popup_8396e72f2357eb9902bf642fd14c3b44)
+        ;
+
+        
+    
+    
+            var circle_marker_fc4440f806e75f6e4e7373ed534c2c5c = L.circleMarker(
+                [39.45354477488068, -0.3590956095656361],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_30ae5239c6248df96e891a334cb7e464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b58bd5fb186512e9545595e7a0e010 = $(`<div id="html_34b58bd5fb186512e9545595e7a0e010" style="width: 100.0%; height: 100.0%;">CIUTAT DE LES ARTS I DE LES CIENCIES: 71686.67 m² of green area</div>`)[0];
+                popup_30ae5239c6248df96e891a334cb7e464.setContent(html_34b58bd5fb186512e9545595e7a0e010);
+            
+        
+
+        circle_marker_fc4440f806e75f6e4e7373ed534c2c5c.bindPopup(popup_30ae5239c6248df96e891a334cb7e464)
+        ;
+
+        
+    
+    
+            var circle_marker_3a1dc5ef8ed0adea339a6639636bba73 = L.circleMarker(
+                [39.498321090629304, -0.3959921434014054],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5c599d98a997c0e1b2b2a655216e84ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e28d83a3261326cb62bb50be8fb0adbb = $(`<div id="html_e28d83a3261326cb62bb50be8fb0adbb" style="width: 100.0%; height: 100.0%;">CIUTAT FALLERA: 98127.22 m² of green area</div>`)[0];
+                popup_5c599d98a997c0e1b2b2a655216e84ed.setContent(html_e28d83a3261326cb62bb50be8fb0adbb);
+            
+        
+
+        circle_marker_3a1dc5ef8ed0adea339a6639636bba73.bindPopup(popup_5c599d98a997c0e1b2b2a655216e84ed)
+        ;
+
+        
+    
+    
+            var circle_marker_0a03eb932db253c353705b6cee2f36ac = L.circleMarker(
+                [39.472522604115596, -0.34537994518604165],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_1fc94e10a26d2c7812489fb306c1725d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a250f9a1e243824f52e3200f7389f1b3 = $(`<div id="html_a250f9a1e243824f52e3200f7389f1b3" style="width: 100.0%; height: 100.0%;">CIUTAT JARDI: 69361.87 m² of green area</div>`)[0];
+                popup_1fc94e10a26d2c7812489fb306c1725d.setContent(html_a250f9a1e243824f52e3200f7389f1b3);
+            
+        
+
+        circle_marker_0a03eb932db253c353705b6cee2f36ac.bindPopup(popup_1fc94e10a26d2c7812489fb306c1725d)
+        ;
+
+        
+    
+    
+            var circle_marker_9167a8088c25af2a3f56111d3b9ac2a3 = L.circleMarker(
+                [39.47796180802495, -0.35603834653748656],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_49045957cbc73a531e606efdb2e5cd1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97264036e9c15156cc0ce20c1cfd754e = $(`<div id="html_97264036e9c15156cc0ce20c1cfd754e" style="width: 100.0%; height: 100.0%;">CIUTAT UNIVERSITARIA: 55913.40 m² of green area</div>`)[0];
+                popup_49045957cbc73a531e606efdb2e5cd1e.setContent(html_97264036e9c15156cc0ce20c1cfd754e);
+            
+        
+
+        circle_marker_9167a8088c25af2a3f56111d3b9ac2a3.bindPopup(popup_49045957cbc73a531e606efdb2e5cd1e)
+        ;
+
+        
+    
+    
+            var circle_marker_b034531c0d32a85e769b6239e75a8efe = L.circleMarker(
+                [39.449198601920564, -0.38782748579599924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_9ef1d703340cf4e2c1b82d6167abe901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_210f28b1e5435f47269b01560d9d72f2 = $(`<div id="html_210f28b1e5435f47269b01560d9d72f2" style="width: 100.0%; height: 100.0%;">CREU COBERTA: 13606.65 m² of green area</div>`)[0];
+                popup_9ef1d703340cf4e2c1b82d6167abe901.setContent(html_210f28b1e5435f47269b01560d9d72f2);
+            
+        
+
+        circle_marker_b034531c0d32a85e769b6239e75a8efe.bindPopup(popup_9ef1d703340cf4e2c1b82d6167abe901)
+        ;
+
+        
+    
+    
+            var circle_marker_ffdbb4fa416e2fe863c8de0eed6ca466 = L.circleMarker(
+                [39.476329718604575, -0.38736871442647114],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d7414155e84c96b4f38eaf90d2b29681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bffdc6b20ad3eab58b247a23d5ff986 = $(`<div id="html_7bffdc6b20ad3eab58b247a23d5ff986" style="width: 100.0%; height: 100.0%;">EL BOTANIC: 4701.29 m² of green area</div>`)[0];
+                popup_d7414155e84c96b4f38eaf90d2b29681.setContent(html_7bffdc6b20ad3eab58b247a23d5ff986);
+            
+        
+
+        circle_marker_ffdbb4fa416e2fe863c8de0eed6ca466.bindPopup(popup_d7414155e84c96b4f38eaf90d2b29681)
+        ;
+
+        
+    
+    
+            var circle_marker_a649928e73284acb7949b58e9e32abf8 = L.circleMarker(
+                [39.48734904134013, -0.3912325895049677],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a8908795f664d98570323926b15a31b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd00d7a88440f4576b96a6efc1b0000b = $(`<div id="html_bd00d7a88440f4576b96a6efc1b0000b" style="width: 100.0%; height: 100.0%;">EL CALVARI: 1928.89 m² of green area</div>`)[0];
+                popup_a8908795f664d98570323926b15a31b8.setContent(html_bd00d7a88440f4576b96a6efc1b0000b);
+            
+        
+
+        circle_marker_a649928e73284acb7949b58e9e32abf8.bindPopup(popup_a8908795f664d98570323926b15a31b8)
+        ;
+
+        
+    
+    
+            var circle_marker_cdb161b4846842a273f535bbfc0929e3 = L.circleMarker(
+                [39.47893427697039, -0.38114455234939015],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_52dd94430381b6e8610fa62f9a87bc9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b692a0d895be3b89bbfd1d00d2227923 = $(`<div id="html_b692a0d895be3b89bbfd1d00d2227923" style="width: 100.0%; height: 100.0%;">EL CARME: 2229.31 m² of green area</div>`)[0];
+                popup_52dd94430381b6e8610fa62f9a87bc9f.setContent(html_b692a0d895be3b89bbfd1d00d2227923);
+            
+        
+
+        circle_marker_cdb161b4846842a273f535bbfc0929e3.bindPopup(popup_52dd94430381b6e8610fa62f9a87bc9f)
+        ;
+
+        
+    
+    
+            var circle_marker_7e85a9fa939d01eb1f0f830feca6621c = L.circleMarker(
+                [39.431403236586796, -0.3779398116513293],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_8a58ab625bca5dac0102bcaa55178e7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0524e3162c072399199cf689a36462a5 = $(`<div id="html_0524e3162c072399199cf689a36462a5" style="width: 100.0%; height: 100.0%;">EL FORN D'ALCEDO: 111.15 m² of green area</div>`)[0];
+                popup_8a58ab625bca5dac0102bcaa55178e7f.setContent(html_0524e3162c072399199cf689a36462a5);
+            
+        
+
+        circle_marker_7e85a9fa939d01eb1f0f830feca6621c.bindPopup(popup_8a58ab625bca5dac0102bcaa55178e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_ae7f58d70e87b4338f28c6bac5b75437 = L.circleMarker(
+                [39.458180755270845, -0.3386387256612971],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a0a16a8a6774643bbef83e94c50cc0a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee501300fa28045f051113bd4b065be8 = $(`<div id="html_ee501300fa28045f051113bd4b065be8" style="width: 100.0%; height: 100.0%;">EL GRAO: 5553.60 m² of green area</div>`)[0];
+                popup_a0a16a8a6774643bbef83e94c50cc0a3.setContent(html_ee501300fa28045f051113bd4b065be8);
+            
+        
+
+        circle_marker_ae7f58d70e87b4338f28c6bac5b75437.bindPopup(popup_a0a16a8a6774643bbef83e94c50cc0a3)
+        ;
+
+        
+    
+    
+            var circle_marker_b7a94e3be08426c413c5c8e7888a2c8b = L.circleMarker(
+                [39.46082168216058, -0.3348994790628661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_66db3529edf6da17a254a589e4907ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec66ca80cbedcabc25c9d59372d7d591 = $(`<div id="html_ec66ca80cbedcabc25c9d59372d7d591" style="width: 100.0%; height: 100.0%;">EL GRAU: 32439.82 m² of green area</div>`)[0];
+                popup_66db3529edf6da17a254a589e4907ed6.setContent(html_ec66ca80cbedcabc25c9d59372d7d591);
+            
+        
+
+        circle_marker_b7a94e3be08426c413c5c8e7888a2c8b.bindPopup(popup_66db3529edf6da17a254a589e4907ed6)
+        ;
+
+        
+    
+    
+            var circle_marker_84110b0d6eb82912a23271201abfac9f = L.circleMarker(
+                [39.46834503738165, -0.36646046075753547],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_02398cfad788e5954f9063269bcaab39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fac54401fbb435c3285392cb46c2d133 = $(`<div id="html_fac54401fbb435c3285392cb46c2d133" style="width: 100.0%; height: 100.0%;">EL PLA DEL REMEI: 20871.27 m² of green area</div>`)[0];
+                popup_02398cfad788e5954f9063269bcaab39.setContent(html_fac54401fbb435c3285392cb46c2d133);
+            
+        
+
+        circle_marker_84110b0d6eb82912a23271201abfac9f.bindPopup(popup_02398cfad788e5954f9063269bcaab39)
+        ;
+
+        
+    
+    
+            var circle_marker_07d520f8245a105c2371bcce3503929b = L.circleMarker(
+                [39.493004522332825, -0.3695156692619315],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_cf41d4a5d75674db6abdcbd6e1c9bb7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff459f2ed27f420b8656a3fd42b490c = $(`<div id="html_bff459f2ed27f420b8656a3fd42b490c" style="width: 100.0%; height: 100.0%;">ELS ORRIOLS: 65350.78 m² of green area</div>`)[0];
+                popup_cf41d4a5d75674db6abdcbd6e1c9bb7b.setContent(html_bff459f2ed27f420b8656a3fd42b490c);
+            
+        
+
+        circle_marker_07d520f8245a105c2371bcce3503929b.bindPopup(popup_cf41d4a5d75674db6abdcbd6e1c9bb7b)
+        ;
+
+        
+    
+    
+            var circle_marker_450512328bb747e50bc11c150d9dbdf1 = L.circleMarker(
+                [39.4573602318262, -0.37154784402869445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_e4a780f4257832ce9adda4a6696e2c1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2912cf749ec07f8c81f51da5afd77c8 = $(`<div id="html_a2912cf749ec07f8c81f51da5afd77c8" style="width: 100.0%; height: 100.0%;">EN CORTS: 6483.42 m² of green area</div>`)[0];
+                popup_e4a780f4257832ce9adda4a6696e2c1f.setContent(html_a2912cf749ec07f8c81f51da5afd77c8);
+            
+        
+
+        circle_marker_450512328bb747e50bc11c150d9dbdf1.bindPopup(popup_e4a780f4257832ce9adda4a6696e2c1f)
+        ;
+
+        
+    
+    
+            var circle_marker_21744cdd7fd9122d070a008eb2c6999e = L.circleMarker(
+                [39.476686429259274, -0.3655930601407611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_58691370d7daebc5e4cadc7697ccef86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d0e6f21c743691f7c4e7c6d2b6137c = $(`<div id="html_a3d0e6f21c743691f7c4e7c6d2b6137c" style="width: 100.0%; height: 100.0%;">EXPOSICIO: 7975.79 m² of green area</div>`)[0];
+                popup_58691370d7daebc5e4cadc7697ccef86.setContent(html_a3d0e6f21c743691f7c4e7c6d2b6137c);
+            
+        
+
+        circle_marker_21744cdd7fd9122d070a008eb2c6999e.bindPopup(popup_58691370d7daebc5e4cadc7697ccef86)
+        ;
+
+        
+    
+    
+            var circle_marker_98541290d0e477857acb70244778d44c = L.circleMarker(
+                [39.47591211252867, -0.3631169030968452],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_172fe63d337811b408745a5388a42fcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bca2df86416c02b5e648e5101387ec4 = $(`<div id="html_3bca2df86416c02b5e648e5101387ec4" style="width: 100.0%; height: 100.0%;">EXPOSICION: 14528.97 m² of green area</div>`)[0];
+                popup_172fe63d337811b408745a5388a42fcf.setContent(html_3bca2df86416c02b5e648e5101387ec4);
+            
+        
+
+        circle_marker_98541290d0e477857acb70244778d44c.bindPopup(popup_172fe63d337811b408745a5388a42fcf)
+        ;
+
+        
+    
+    
+            var circle_marker_fe9226d3a3d23a5b3e5ccd686f441e82 = L.circleMarker(
+                [39.4333522340688, -0.3960737206222848],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_b999f712b5baefd1603291e8e623db9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025106b12d148b86ec4052766adda3c0 = $(`<div id="html_025106b12d148b86ec4052766adda3c0" style="width: 100.0%; height: 100.0%;">FAITANAR: 132784.89 m² of green area</div>`)[0];
+                popup_b999f712b5baefd1603291e8e623db9f.setContent(html_025106b12d148b86ec4052766adda3c0);
+            
+        
+
+        circle_marker_fe9226d3a3d23a5b3e5ccd686f441e82.bindPopup(popup_b999f712b5baefd1603291e8e623db9f)
+        ;
+
+        
+    
+    
+            var circle_marker_59e0a6fd1d5ab85aff56d68dc007e47c = L.circleMarker(
+                [39.449132894156975, -0.3955043774508175],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a85f1f73cfebec976e890be97299ff0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cae5cab30a425f7e69bdc33a3d2fe6e0 = $(`<div id="html_cae5cab30a425f7e69bdc33a3d2fe6e0" style="width: 100.0%; height: 100.0%;">FAVARA: 284.20 m² of green area</div>`)[0];
+                popup_a85f1f73cfebec976e890be97299ff0b.setContent(html_cae5cab30a425f7e69bdc33a3d2fe6e0);
+            
+        
+
+        circle_marker_59e0a6fd1d5ab85aff56d68dc007e47c.bindPopup(popup_a85f1f73cfebec976e890be97299ff0b)
+        ;
+
+        
+    
+    
+            var circle_marker_58ffb31794d31ae4381a394d55312997 = L.circleMarker(
+                [39.44410684683801, -0.3669481753362252],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_b62cb1c8465ea13d678d42dabe9021d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6f8e1b78c2e15429b469e0cbf6a2e82 = $(`<div id="html_b6f8e1b78c2e15429b469e0cbf6a2e82" style="width: 100.0%; height: 100.0%;">FONTETA  S.LUIS: 14791.98 m² of green area</div>`)[0];
+                popup_b62cb1c8465ea13d678d42dabe9021d0.setContent(html_b6f8e1b78c2e15429b469e0cbf6a2e82);
+            
+        
+
+        circle_marker_58ffb31794d31ae4381a394d55312997.bindPopup(popup_b62cb1c8465ea13d678d42dabe9021d0)
+        ;
+
+        
+    
+    
+            var circle_marker_a252c5905ea59b023d376faf875e2a82 = L.circleMarker(
+                [39.465392795353665, -0.40734857520762086],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_779bb3d2d6c7b185eee687e2c836cab6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd47ada1f34cfb5c7b1a2bef03d4a04b = $(`<div id="html_bd47ada1f34cfb5c7b1a2bef03d4a04b" style="width: 100.0%; height: 100.0%;">FONTSANTA: 44514.88 m² of green area</div>`)[0];
+                popup_779bb3d2d6c7b185eee687e2c836cab6.setContent(html_bd47ada1f34cfb5c7b1a2bef03d4a04b);
+            
+        
+
+        circle_marker_a252c5905ea59b023d376faf875e2a82.bindPopup(popup_779bb3d2d6c7b185eee687e2c836cab6)
+        ;
+
+        
+    
+    
+            var circle_marker_4e9de95b51b51a3c8bbdb805655dfb8c = L.circleMarker(
+                [39.432035985027056, -0.3756443273816574],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_bb6e2c1b8cdd76896442ec2c4a3f5b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8de6381060f66c9441d6367b7cdcfb1 = $(`<div id="html_b8de6381060f66c9441d6367b7cdcfb1" style="width: 100.0%; height: 100.0%;">FORN D'ALCEDO: 1876.48 m² of green area</div>`)[0];
+                popup_bb6e2c1b8cdd76896442ec2c4a3f5b2b.setContent(html_b8de6381060f66c9441d6367b7cdcfb1);
+            
+        
+
+        circle_marker_4e9de95b51b51a3c8bbdb805655dfb8c.bindPopup(popup_bb6e2c1b8cdd76896442ec2c4a3f5b2b)
+        ;
+
+        
+    
+    
+            var circle_marker_8eee9d8c6d8cf389b5022d58c53bac4f = L.circleMarker(
+                [39.46489709638084, -0.3648451293624248],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_62638b02aa6073b98e6c68c0045ab98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87d7ded0ec9915b47c3c2f539c6d8e4a = $(`<div id="html_87d7ded0ec9915b47c3c2f539c6d8e4a" style="width: 100.0%; height: 100.0%;">GRAN VIA: 17179.99 m² of green area</div>`)[0];
+                popup_62638b02aa6073b98e6c68c0045ab98f.setContent(html_87d7ded0ec9915b47c3c2f539c6d8e4a);
+            
+        
+
+        circle_marker_8eee9d8c6d8cf389b5022d58c53bac4f.bindPopup(popup_62638b02aa6073b98e6c68c0045ab98f)
+        ;
+
+        
+    
+    
+            var circle_marker_93c53b1afe8114a4cf08f094fd4d4015 = L.circleMarker(
+                [39.45085427567197, -0.3907286463279578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d0a317fd35b8ac47f43aa464b2347d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dd95be98abf2d57e741e6b9fbb1b653 = $(`<div id="html_9dd95be98abf2d57e741e6b9fbb1b653" style="width: 100.0%; height: 100.0%;">HORT DE SENABRE: 13931.54 m² of green area</div>`)[0];
+                popup_d0a317fd35b8ac47f43aa464b2347d10.setContent(html_9dd95be98abf2d57e741e6b9fbb1b653);
+            
+        
+
+        circle_marker_93c53b1afe8114a4cf08f094fd4d4015.bindPopup(popup_d0a317fd35b8ac47f43aa464b2347d10)
+        ;
+
+        
+    
+    
+            var circle_marker_82577c1f79fec9ce8700a4c9f56cc734 = L.circleMarker(
+                [39.48090615201938, -0.3622311770815314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_fe266165e0fb5f91380a9e0b875ef98d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93d1120d6256fa5a6dc35a51add9a801 = $(`<div id="html_93d1120d6256fa5a6dc35a51add9a801" style="width: 100.0%; height: 100.0%;">JAUME ROIG: 1770.93 m² of green area</div>`)[0];
+                popup_fe266165e0fb5f91380a9e0b875ef98d.setContent(html_93d1120d6256fa5a6dc35a51add9a801);
+            
+        
+
+        circle_marker_82577c1f79fec9ce8700a4c9f56cc734.bindPopup(popup_fe266165e0fb5f91380a9e0b875ef98d)
+        ;
+
+        
+    
+    
+            var circle_marker_c128ff2b9aec103b91fb1e27be755489 = L.circleMarker(
+                [39.47259512450571, -0.3499644117096939],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_1a67a8615e59c8bfaac116f1f595cf02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5942757715f11ab00d1fe2fd47e16ad8 = $(`<div id="html_5942757715f11ab00d1fe2fd47e16ad8" style="width: 100.0%; height: 100.0%;">L'AMISTAT: 15423.62 m² of green area</div>`)[0];
+                popup_1a67a8615e59c8bfaac116f1f595cf02.setContent(html_5942757715f11ab00d1fe2fd47e16ad8);
+            
+        
+
+        circle_marker_c128ff2b9aec103b91fb1e27be755489.bindPopup(popup_1a67a8615e59c8bfaac116f1f595cf02)
+        ;
+
+        
+    
+    
+            var circle_marker_993387fbc41a3a82eb0381dd0e3c96c4 = L.circleMarker(
+                [39.469111904730724, -0.3395927985485409],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_c52bc65ae5cd5b492ce8c3aa6030d948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc24eb2d0aeb8af1980f61a056c93b3 = $(`<div id="html_8cc24eb2d0aeb8af1980f61a056c93b3" style="width: 100.0%; height: 100.0%;">L'ILLA PERDUDA: 10048.90 m² of green area</div>`)[0];
+                popup_c52bc65ae5cd5b492ce8c3aa6030d948.setContent(html_8cc24eb2d0aeb8af1980f61a056c93b3);
+            
+        
+
+        circle_marker_993387fbc41a3a82eb0381dd0e3c96c4.bindPopup(popup_c52bc65ae5cd5b492ce8c3aa6030d948)
+        ;
+
+        
+    
+    
+            var circle_marker_deb79e97651246c4de309bd2e5fbccd2 = L.circleMarker(
+                [39.47785224008591, -0.3450360513746525],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_612ed377eb03488eca2142006dcfa6d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ccd3a5a4996591ebf4a9e6649d41be = $(`<div id="html_a0ccd3a5a4996591ebf4a9e6649d41be" style="width: 100.0%; height: 100.0%;">LA CARRASCA: 80425.18 m² of green area</div>`)[0];
+                popup_612ed377eb03488eca2142006dcfa6d3.setContent(html_a0ccd3a5a4996591ebf4a9e6649d41be);
+            
+        
+
+        circle_marker_deb79e97651246c4de309bd2e5fbccd2.bindPopup(popup_612ed377eb03488eca2142006dcfa6d3)
+        ;
+
+        
+    
+    
+            var circle_marker_a8aa484f500b230e818a9f85edf1fd99 = L.circleMarker(
+                [39.45871616362108, -0.3440776246850694],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_35523dcd00f28c65706747b1fd380407 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_954b7f1c7626798e42efc6ac983e66d9 = $(`<div id="html_954b7f1c7626798e42efc6ac983e66d9" style="width: 100.0%; height: 100.0%;">LA CREU DEL GRAO: 8313.56 m² of green area</div>`)[0];
+                popup_35523dcd00f28c65706747b1fd380407.setContent(html_954b7f1c7626798e42efc6ac983e66d9);
+            
+        
+
+        circle_marker_a8aa484f500b230e818a9f85edf1fd99.bindPopup(popup_35523dcd00f28c65706747b1fd380407)
+        ;
+
+        
+    
+    
+            var circle_marker_72a77c331cc14fa59fbfd437bed88903 = L.circleMarker(
+                [39.46223336515853, -0.34730254398603166],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_ec97f213a3a3b5475beefeee7074646b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b85d700752f7fc908a3e2cb62bfba5ae = $(`<div id="html_b85d700752f7fc908a3e2cb62bfba5ae" style="width: 100.0%; height: 100.0%;">LA CREU DEL GRAU: 19617.20 m² of green area</div>`)[0];
+                popup_ec97f213a3a3b5475beefeee7074646b.setContent(html_b85d700752f7fc908a3e2cb62bfba5ae);
+            
+        
+
+        circle_marker_72a77c331cc14fa59fbfd437bed88903.bindPopup(popup_ec97f213a3a3b5475beefeee7074646b)
+        ;
+
+        
+    
+    
+            var circle_marker_c1890ebace7f2a8fb9caf62301ed3066 = L.circleMarker(
+                [39.47965360591436, -0.3290810312222056],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d2797b2fc75149dfb4d2874b7495e292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2edf2e2644b27f60139daa3b51709f6b = $(`<div id="html_2edf2e2644b27f60139daa3b51709f6b" style="width: 100.0%; height: 100.0%;">LA MALVA-ROSA: 59948.05 m² of green area</div>`)[0];
+                popup_d2797b2fc75149dfb4d2874b7495e292.setContent(html_2edf2e2644b27f60139daa3b51709f6b);
+            
+        
+
+        circle_marker_c1890ebace7f2a8fb9caf62301ed3066.bindPopup(popup_d2797b2fc75149dfb4d2874b7495e292)
+        ;
+
+        
+    
+    
+            var circle_marker_f5d8fa959368394e5ddb7b712f34cbff = L.circleMarker(
+                [39.47546218769698, -0.3885545414154742],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_c014e0f5d7c9f75ab9b85996da7281c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c55d776bd755bee5e21c4c613817a886 = $(`<div id="html_c55d776bd755bee5e21c4c613817a886" style="width: 100.0%; height: 100.0%;">LA PETXINA: 20676.22 m² of green area</div>`)[0];
+                popup_c014e0f5d7c9f75ab9b85996da7281c7.setContent(html_c55d776bd755bee5e21c4c613817a886);
+            
+        
+
+        circle_marker_f5d8fa959368394e5ddb7b712f34cbff.bindPopup(popup_c014e0f5d7c9f75ab9b85996da7281c7)
+        ;
+
+        
+    
+    
+            var circle_marker_40ea04111d7473bc025ef1b1e59d37fa = L.circleMarker(
+                [39.43711619114765, -0.34042054306549174],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_8767b130b8d65bec1911131e5bea0ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2f02784cc56602f058f8d7939b09c7b = $(`<div id="html_f2f02784cc56602f058f8d7939b09c7b" style="width: 100.0%; height: 100.0%;">LA PUNTA: 5286.01 m² of green area</div>`)[0];
+                popup_8767b130b8d65bec1911131e5bea0ba7.setContent(html_f2f02784cc56602f058f8d7939b09c7b);
+            
+        
+
+        circle_marker_40ea04111d7473bc025ef1b1e59d37fa.bindPopup(popup_8767b130b8d65bec1911131e5bea0ba7)
+        ;
+
+        
+    
+    
+            var circle_marker_16b14e4ddd6774adc754c91b74719337 = L.circleMarker(
+                [39.45557986569281, -0.3822922202525628],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d66868236220125053436cd8fff19667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df6b1d659634a26a97b9e0fe4042e66c = $(`<div id="html_df6b1d659634a26a97b9e0fe4042e66c" style="width: 100.0%; height: 100.0%;">LA RAIOSA: 298.38 m² of green area</div>`)[0];
+                popup_d66868236220125053436cd8fff19667.setContent(html_df6b1d659634a26a97b9e0fe4042e66c);
+            
+        
+
+        circle_marker_16b14e4ddd6774adc754c91b74719337.bindPopup(popup_d66868236220125053436cd8fff19667)
+        ;
+
+        
+    
+    
+            var circle_marker_61fc0cd7dbc6e42de4bebf4ade75795b = L.circleMarker(
+                [39.434246226546236, -0.39133760378248195],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_3b44c6cedf0c2c21f883fb781b42b331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22727f23ee3f91159876c464e29b9a1f = $(`<div id="html_22727f23ee3f91159876c464e29b9a1f" style="width: 100.0%; height: 100.0%;">LA TORRE: 728.34 m² of green area</div>`)[0];
+                popup_3b44c6cedf0c2c21f883fb781b42b331.setContent(html_22727f23ee3f91159876c464e29b9a1f);
+            
+        
+
+        circle_marker_61fc0cd7dbc6e42de4bebf4ade75795b.bindPopup(popup_3b44c6cedf0c2c21f883fb781b42b331)
+        ;
+
+        
+    
+    
+            var circle_marker_26d6029bb32c3fbdc4d7dd0abd1e5595 = L.circleMarker(
+                [39.477169323624786, -0.35005788259149423],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a79bbba2161b4fc03bafd786eaa81439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08376b848564a2d4075b1b6fadeee4a4 = $(`<div id="html_08376b848564a2d4075b1b6fadeee4a4" style="width: 100.0%; height: 100.0%;">LA VEGA BAIXA: 18457.96 m² of green area</div>`)[0];
+                popup_a79bbba2161b4fc03bafd786eaa81439.setContent(html_08376b848564a2d4075b1b6fadeee4a4);
+            
+        
+
+        circle_marker_26d6029bb32c3fbdc4d7dd0abd1e5595.bindPopup(popup_a79bbba2161b4fc03bafd786eaa81439)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba98039eeec29bcf730e754db5afae3 = L.circleMarker(
+                [39.524083244939625, -0.35622012756357485],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a629a7e643586922f2028faed9ac2863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4efb53617b7a56f09ec8b3f48069eea = $(`<div id="html_d4efb53617b7a56f09ec8b3f48069eea" style="width: 100.0%; height: 100.0%;">LES CASES DE BARCENA: 2137.02 m² of green area</div>`)[0];
+                popup_a629a7e643586922f2028faed9ac2863.setContent(html_d4efb53617b7a56f09ec8b3f48069eea);
+            
+        
+
+        circle_marker_5ba98039eeec29bcf730e754db5afae3.bindPopup(popup_a629a7e643586922f2028faed9ac2863)
+        ;
+
+        
+    
+    
+            var circle_marker_7bd19f71949c4667f650901a6d645e6a = L.circleMarker(
+                [39.48316123079587, -0.38750197574685946],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_3b8acfabfbc983d59c1347ea969ef7bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd1fba8eed0a35d665c25308a4ef5d13 = $(`<div id="html_bd1fba8eed0a35d665c25308a4ef5d13" style="width: 100.0%; height: 100.0%;">LES TENDETES: 25393.61 m² of green area</div>`)[0];
+                popup_3b8acfabfbc983d59c1347ea969ef7bb.setContent(html_bd1fba8eed0a35d665c25308a4ef5d13);
+            
+        
+
+        circle_marker_7bd19f71949c4667f650901a6d645e6a.bindPopup(popup_3b8acfabfbc983d59c1347ea969ef7bb)
+        ;
+
+        
+    
+    
+            var circle_marker_4b2d68d050a57df1b9493e97e9d2a311 = L.circleMarker(
+                [39.46843098794586, -0.41319157806133466],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_1ee67bdbb97f4098fc30bbd88863f120 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8685e732285c8635d00399a1b18ea781 = $(`<div id="html_8685e732285c8635d00399a1b18ea781" style="width: 100.0%; height: 100.0%;">LLUM: 18942.77 m² of green area</div>`)[0];
+                popup_1ee67bdbb97f4098fc30bbd88863f120.setContent(html_8685e732285c8635d00399a1b18ea781);
+            
+        
+
+        circle_marker_4b2d68d050a57df1b9493e97e9d2a311.bindPopup(popup_1ee67bdbb97f4098fc30bbd88863f120)
+        ;
+
+        
+    
+    
+            var circle_marker_5614e3d90c4f6813bb97b1389009745e = L.circleMarker(
+                [39.54424839738183, -0.33375859504684907],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_35661c418ef00496469340de267db63f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01596fdbbca0d9cdea48595a30ea74a = $(`<div id="html_f01596fdbbca0d9cdea48595a30ea74a" style="width: 100.0%; height: 100.0%;">MAHUELLA-TAULADELLA: 408.33 m² of green area</div>`)[0];
+                popup_35661c418ef00496469340de267db63f.setContent(html_f01596fdbbca0d9cdea48595a30ea74a);
+            
+        
+
+        circle_marker_5614e3d90c4f6813bb97b1389009745e.bindPopup(popup_35661c418ef00496469340de267db63f)
+        ;
+
+        
+    
+    
+            var circle_marker_fa90428ae47f6d93abee1277361cd9c7 = L.circleMarker(
+                [39.45074546661464, -0.3757370771048282],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_e0fcc49a1ada0995c346a95fbd8f17e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39944b052eec1001b494986de3789614 = $(`<div id="html_39944b052eec1001b494986de3789614" style="width: 100.0%; height: 100.0%;">MALILLA: 139331.19 m² of green area</div>`)[0];
+                popup_e0fcc49a1ada0995c346a95fbd8f17e7.setContent(html_39944b052eec1001b494986de3789614);
+            
+        
+
+        circle_marker_fa90428ae47f6d93abee1277361cd9c7.bindPopup(popup_e0fcc49a1ada0995c346a95fbd8f17e7)
+        ;
+
+        
+    
+    
+            var circle_marker_153b4144388c2b42ce09fc97eb0b4c50 = L.circleMarker(
+                [39.48654835021929, -0.3835759101061784],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_3e4156422d9a4f86c9c130234c0fc665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9a5a08d496042fe2bdc5257fa52ad27 = $(`<div id="html_f9a5a08d496042fe2bdc5257fa52ad27" style="width: 100.0%; height: 100.0%;">MARXALENES: 77785.73 m² of green area</div>`)[0];
+                popup_3e4156422d9a4f86c9c130234c0fc665.setContent(html_f9a5a08d496042fe2bdc5257fa52ad27);
+            
+        
+
+        circle_marker_153b4144388c2b42ce09fc97eb0b4c50.bindPopup(popup_3e4156422d9a4f86c9c130234c0fc665)
+        ;
+
+        
+    
+    
+            var circle_marker_825be03d7dd47b38098919cb174c55b8 = L.circleMarker(
+                [39.543903413782054, -0.41304524261068054],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5902ff9bcc495362b05d353eece65dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1cd4b497f1b98a5f58ca06f57e98bd = $(`<div id="html_bc1cd4b497f1b98a5f58ca06f57e98bd" style="width: 100.0%; height: 100.0%;">MASSARROJOS: 30722.78 m² of green area</div>`)[0];
+                popup_5902ff9bcc495362b05d353eece65dd8.setContent(html_bc1cd4b497f1b98a5f58ca06f57e98bd);
+            
+        
+
+        circle_marker_825be03d7dd47b38098919cb174c55b8.bindPopup(popup_5902ff9bcc495362b05d353eece65dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_de0f95d7dcc66179a6cf1a2890cb42ea = L.circleMarker(
+                [39.47380381510498, -0.38007721464035155],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5a19342815fbb02a234ae2c76c65a290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d76e96e4ad95d86363d60a83889aa8 = $(`<div id="html_81d76e96e4ad95d86363d60a83889aa8" style="width: 100.0%; height: 100.0%;">MERCAT: 2554.98 m² of green area</div>`)[0];
+                popup_5a19342815fbb02a234ae2c76c65a290.setContent(html_81d76e96e4ad95d86363d60a83889aa8);
+            
+        
+
+        circle_marker_de0f95d7dcc66179a6cf1a2890cb42ea.bindPopup(popup_5a19342815fbb02a234ae2c76c65a290)
+        ;
+
+        
+    
+    
+            var circle_marker_486e335710585ddac64ddbe0bec2f189 = L.circleMarker(
+                [39.47102037485091, -0.358486805196077],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_c88c797aa9b822911dcc1273781c0823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f519d2b45955210f7bbeeb0e607003b = $(`<div id="html_8f519d2b45955210f7bbeeb0e607003b" style="width: 100.0%; height: 100.0%;">MESTALLA: 137624.49 m² of green area</div>`)[0];
+                popup_c88c797aa9b822911dcc1273781c0823.setContent(html_8f519d2b45955210f7bbeeb0e607003b);
+            
+        
+
+        circle_marker_486e335710585ddac64ddbe0bec2f189.bindPopup(popup_c88c797aa9b822911dcc1273781c0823)
+        ;
+
+        
+    
+    
+            var circle_marker_d5b517a4a50616417e67abd7ce016e71 = L.circleMarker(
+                [39.45899583538369, -0.3640630174223526],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_af28dea92be354e6664c99cef70a2977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89a0838095d7c09ec8885bca5aea5581 = $(`<div id="html_89a0838095d7c09ec8885bca5aea5581" style="width: 100.0%; height: 100.0%;">MONT-OLIVET: 28956.15 m² of green area</div>`)[0];
+                popup_af28dea92be354e6664c99cef70a2977.setContent(html_89a0838095d7c09ec8885bca5aea5581);
+            
+        
+
+        circle_marker_d5b517a4a50616417e67abd7ce016e71.bindPopup(popup_af28dea92be354e6664c99cef70a2977)
+        ;
+
+        
+    
+    
+            var circle_marker_82eda6a8c044a9ef0740e22d9d2f9428 = L.circleMarker(
+                [39.48473706152159, -0.37333503412940233],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_e9a672b48678d812a7140f05a80fd12e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb9e6e1f480a5809e7d8575d1479b91e = $(`<div id="html_bb9e6e1f480a5809e7d8575d1479b91e" style="width: 100.0%; height: 100.0%;">MORVEDRE: 28164.70 m² of green area</div>`)[0];
+                popup_e9a672b48678d812a7140f05a80fd12e.setContent(html_bb9e6e1f480a5809e7d8575d1479b91e);
+            
+        
+
+        circle_marker_82eda6a8c044a9ef0740e22d9d2f9428.bindPopup(popup_e9a672b48678d812a7140f05a80fd12e)
+        ;
+
+        
+    
+    
+            var circle_marker_eec8eae008a53f48748704da222c83eb = L.circleMarker(
+                [39.45324699784517, -0.36632127365767153],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d1c2b82b6eabce41803c9828b5e0ad46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35399face2bb610116a32cf3b47ba49c = $(`<div id="html_35399face2bb610116a32cf3b47ba49c" style="width: 100.0%; height: 100.0%;">NA ROVELLA: 95503.74 m² of green area</div>`)[0];
+                popup_d1c2b82b6eabce41803c9828b5e0ad46.setContent(html_35399face2bb610116a32cf3b47ba49c);
+            
+        
+
+        circle_marker_eec8eae008a53f48748704da222c83eb.bindPopup(popup_d1c2b82b6eabce41803c9828b5e0ad46)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1bab4ff2b80b7422aa09b1c2b4d9ec = L.circleMarker(
+                [39.446897652504035, -0.3326577197644201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_2cd11b6ff1291207222a3b70019918ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bba5d2c39b01b50e2825592a67ff2aab = $(`<div id="html_bba5d2c39b01b50e2825592a67ff2aab" style="width: 100.0%; height: 100.0%;">NATZARET: 130576.69 m² of green area</div>`)[0];
+                popup_2cd11b6ff1291207222a3b70019918ef.setContent(html_bba5d2c39b01b50e2825592a67ff2aab);
+            
+        
+
+        circle_marker_bd1bab4ff2b80b7422aa09b1c2b4d9ec.bindPopup(popup_2cd11b6ff1291207222a3b70019918ef)
+        ;
+
+        
+    
+    
+            var circle_marker_e0cb863d671e0ae9f7b9367045acdd20 = L.circleMarker(
+                [39.47132233673657, -0.39939544161522633],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_412053a16673ba566597d7d2908a3e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_404972d6689dfe19d003305157f0633d = $(`<div id="html_404972d6689dfe19d003305157f0633d" style="width: 100.0%; height: 100.0%;">NOU MOLES: 30399.11 m² of green area</div>`)[0];
+                popup_412053a16673ba566597d7d2908a3e62.setContent(html_404972d6689dfe19d003305157f0633d);
+            
+        
+
+        circle_marker_e0cb863d671e0ae9f7b9367045acdd20.bindPopup(popup_412053a16673ba566597d7d2908a3e62)
+        ;
+
+        
+    
+    
+            var circle_marker_8d12e5e0974637201844a8ce7143f66e = L.circleMarker(
+                [39.31112818247972, -0.31730695749223137],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_ed36b7fc137070765a6563c092fb1a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9240b9dbb64a5e312a4422f62768540 = $(`<div id="html_f9240b9dbb64a5e312a4422f62768540" style="width: 100.0%; height: 100.0%;">PALMAR: 2171.76 m² of green area</div>`)[0];
+                popup_ed36b7fc137070765a6563c092fb1a42.setContent(html_f9240b9dbb64a5e312a4422f62768540);
+            
+        
+
+        circle_marker_8d12e5e0974637201844a8ce7143f66e.bindPopup(popup_ed36b7fc137070765a6563c092fb1a42)
+        ;
+
+        
+    
+    
+            var circle_marker_3e217e96b78d72243e46eba8e1dde722 = L.circleMarker(
+                [39.46216012169234, -0.39263324568594715],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_c9e16260b0648a791382c1268ce30ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64a3d4890b2cc260d617c32bd84fc2a9 = $(`<div id="html_64a3d4890b2cc260d617c32bd84fc2a9" style="width: 100.0%; height: 100.0%;">PATRAIX: 128230.36 m² of green area</div>`)[0];
+                popup_c9e16260b0648a791382c1268ce30ea1.setContent(html_64a3d4890b2cc260d617c32bd84fc2a9);
+            
+        
+
+        circle_marker_3e217e96b78d72243e46eba8e1dde722.bindPopup(popup_c9e16260b0648a791382c1268ce30ea1)
+        ;
+
+        
+    
+    
+            var circle_marker_5d993e56a0aa609f4e32d02d7339391a = L.circleMarker(
+                [39.46070095430313, -0.3518960576990085],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_d24ca7fd003f8745720dc80f7eeddf67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d70cb3b266870482c0a203f9a694cd77 = $(`<div id="html_d70cb3b266870482c0a203f9a694cd77" style="width: 100.0%; height: 100.0%;">PENYA-ROJA: 87283.90 m² of green area</div>`)[0];
+                popup_d24ca7fd003f8745720dc80f7eeddf67.setContent(html_d70cb3b266870482c0a203f9a694cd77);
+            
+        
+
+        circle_marker_5d993e56a0aa609f4e32d02d7339391a.bindPopup(popup_d24ca7fd003f8745720dc80f7eeddf67)
+        ;
+
+        
+    
+    
+            var circle_marker_79804b12a68a1c32402e762c425ed04e = L.circleMarker(
+                [39.30170252641232, -0.2926420215265578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_b300f66ed537560152494e3582585874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e031c65146f333d87e1bb56852eead64 = $(`<div id="html_e031c65146f333d87e1bb56852eead64" style="width: 100.0%; height: 100.0%;">PERELLONET: 10225.62 m² of green area</div>`)[0];
+                popup_b300f66ed537560152494e3582585874.setContent(html_e031c65146f333d87e1bb56852eead64);
+            
+        
+
+        circle_marker_79804b12a68a1c32402e762c425ed04e.bindPopup(popup_b300f66ed537560152494e3582585874)
+        ;
+
+        
+    
+    
+            var circle_marker_6ffb889d90553a59ac12ee27e21a2089 = L.circleMarker(
+                [39.4723760117726, -0.3918418970659588],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_4db0148181d21ba4eccb699856d4101e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd624aa07c89794b866c7ae37e51d990 = $(`<div id="html_cd624aa07c89794b866c7ae37e51d990" style="width: 100.0%; height: 100.0%;">PETXINA: 5460.26 m² of green area</div>`)[0];
+                popup_4db0148181d21ba4eccb699856d4101e.setContent(html_cd624aa07c89794b866c7ae37e51d990);
+            
+        
+
+        circle_marker_6ffb889d90553a59ac12ee27e21a2089.bindPopup(popup_4db0148181d21ba4eccb699856d4101e)
+        ;
+
+        
+    
+    
+            var circle_marker_ec83d3a1414acac0b5884a4119c09426 = L.circleMarker(
+                [39.4730465716112, -0.3822807249910285],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_3d50eb786dd38649b55aa6c892d18ccb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca427efda574e3241b57a1c25cd65c9e = $(`<div id="html_ca427efda574e3241b57a1c25cd65c9e" style="width: 100.0%; height: 100.0%;">PILAR: 2055.05 m² of green area</div>`)[0];
+                popup_3d50eb786dd38649b55aa6c892d18ccb.setContent(html_ca427efda574e3241b57a1c25cd65c9e);
+            
+        
+
+        circle_marker_ec83d3a1414acac0b5884a4119c09426.bindPopup(popup_3d50eb786dd38649b55aa6c892d18ccb)
+        ;
+
+        
+    
+    
+            var circle_marker_ab64cd1ec109d920a2ac7fbd980ef496 = L.circleMarker(
+                [39.42108577503801, -0.338051971691129],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_6703cfbecf43c87bd1131c901e0b1f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc46be2b94fd7d98d66c4fbbd2276c7 = $(`<div id="html_1cc46be2b94fd7d98d66c4fbbd2276c7" style="width: 100.0%; height: 100.0%;">PINEDO: 12202.99 m² of green area</div>`)[0];
+                popup_6703cfbecf43c87bd1131c901e0b1f9a.setContent(html_1cc46be2b94fd7d98d66c4fbbd2276c7);
+            
+        
+
+        circle_marker_ab64cd1ec109d920a2ac7fbd980ef496.bindPopup(popup_6703cfbecf43c87bd1131c901e0b1f9a)
+        ;
+
+        
+    
+    
+            var circle_marker_f2fa90c5dcf43bbc05d739ebaf1c7767 = L.circleMarker(
+                [39.50294806108423, -0.38254532343319464],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_540140d924b3e9c0e6f05acb5912fa4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ec09d7826b6541e9944cdbeb6c7a1ee = $(`<div id="html_9ec09d7826b6541e9944cdbeb6c7a1ee" style="width: 100.0%; height: 100.0%;">POBLE NOU: 940.90 m² of green area</div>`)[0];
+                popup_540140d924b3e9c0e6f05acb5912fa4e.setContent(html_9ec09d7826b6541e9944cdbeb6c7a1ee);
+            
+        
+
+        circle_marker_f2fa90c5dcf43bbc05d739ebaf1c7767.bindPopup(popup_540140d924b3e9c0e6f05acb5912fa4e)
+        ;
+
+        
+    
+    
+            var circle_marker_83317b3bf4417ee80643afeeb9af3069 = L.circleMarker(
+                [39.44573616021263, -0.34451695287387324],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_6b1195081a2d58c8a8bae6d35de8cdf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71b01e50096138953225dcf608ea55a2 = $(`<div id="html_71b01e50096138953225dcf608ea55a2" style="width: 100.0%; height: 100.0%;">PUNTA: 82300.00 m² of green area</div>`)[0];
+                popup_6b1195081a2d58c8a8bae6d35de8cdf5.setContent(html_71b01e50096138953225dcf608ea55a2);
+            
+        
+
+        circle_marker_83317b3bf4417ee80643afeeb9af3069.bindPopup(popup_6b1195081a2d58c8a8bae6d35de8cdf5)
+        ;
+
+        
+    
+    
+            var circle_marker_a9ad578d85915a00eceb0665147aaa62 = L.circleMarker(
+                [39.45921737452179, -0.38608976478149887],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_74fbc9d0134523d9e47ba409aed661a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66f016d4e8d7afb8042dcce53fed32d = $(`<div id="html_d66f016d4e8d7afb8042dcce53fed32d" style="width: 100.0%; height: 100.0%;">RAIOSA: 7954.28 m² of green area</div>`)[0];
+                popup_74fbc9d0134523d9e47ba409aed661a4.setContent(html_d66f016d4e8d7afb8042dcce53fed32d);
+            
+        
+
+        circle_marker_a9ad578d85915a00eceb0665147aaa62.bindPopup(popup_74fbc9d0134523d9e47ba409aed661a4)
+        ;
+
+        
+    
+    
+            var circle_marker_4bce4b6b27a2c76e9515d2d3d1dd94c1 = L.circleMarker(
+                [39.46014169313434, -0.3831478003733632],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_460496059e4924319c02fccf0f8eec5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bf7ee4c5612352ed9eae9f27b17e36a = $(`<div id="html_2bf7ee4c5612352ed9eae9f27b17e36a" style="width: 100.0%; height: 100.0%;">ROIG DE CORELLA: 401.84 m² of green area</div>`)[0];
+                popup_460496059e4924319c02fccf0f8eec5e.setContent(html_2bf7ee4c5612352ed9eae9f27b17e36a);
+            
+        
+
+        circle_marker_4bce4b6b27a2c76e9515d2d3d1dd94c1.bindPopup(popup_460496059e4924319c02fccf0f8eec5e)
+        ;
+
+        
+    
+    
+            var circle_marker_811ab6033db255ce0ab4289dc3febde9 = L.circleMarker(
+                [39.466624575802165, -0.38154529998306436],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_aba264b2afff64e8e9779ccefdb41848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686d10ecd744ff23b1dba3d8fcd22e05 = $(`<div id="html_686d10ecd744ff23b1dba3d8fcd22e05" style="width: 100.0%; height: 100.0%;">ROQUETA: 2708.47 m² of green area</div>`)[0];
+                popup_aba264b2afff64e8e9779ccefdb41848.setContent(html_686d10ecd744ff23b1dba3d8fcd22e05);
+            
+        
+
+        circle_marker_811ab6033db255ce0ab4289dc3febde9.bindPopup(popup_aba264b2afff64e8e9779ccefdb41848)
+        ;
+
+        
+    
+    
+            var circle_marker_7e55ba1d405e3b7cb3e55881207dbcf3 = L.circleMarker(
+                [39.46007829372958, -0.37463847877272943],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0b6912e211741a8b6297fc00a13b7dcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72b1d0a2b9d0ad30834c0bbe04087c86 = $(`<div id="html_72b1d0a2b9d0ad30834c0bbe04087c86" style="width: 100.0%; height: 100.0%;">RUSSAFA: 97010.87 m² of green area</div>`)[0];
+                popup_0b6912e211741a8b6297fc00a13b7dcb.setContent(html_72b1d0a2b9d0ad30834c0bbe04087c86);
+            
+        
+
+        circle_marker_7e55ba1d405e3b7cb3e55881207dbcf3.bindPopup(popup_0b6912e211741a8b6297fc00a13b7dcb)
+        ;
+
+        
+    
+    
+            var circle_marker_ffd7893c176057bc26577d734a85cdb9 = L.circleMarker(
+                [39.45861844467586, -0.3983243970880859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_844b3426775f642708cd8529cd985c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e892d6bfc87ee9e065a7d43ba8da034 = $(`<div id="html_8e892d6bfc87ee9e065a7d43ba8da034" style="width: 100.0%; height: 100.0%;">SAFRANAR: 25577.93 m² of green area</div>`)[0];
+                popup_844b3426775f642708cd8529cd985c0f.setContent(html_8e892d6bfc87ee9e065a7d43ba8da034);
+            
+        
+
+        circle_marker_ffd7893c176057bc26577d734a85cdb9.bindPopup(popup_844b3426775f642708cd8529cd985c0f)
+        ;
+
+        
+    
+    
+            var circle_marker_43dbdd4361ff96f501b718dee4f35364 = L.circleMarker(
+                [39.383198167908155, -0.3330276016251182],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a502c9d5ec2acebc4a297f46fa7b4676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b63308be54d718348fad7e8347108ef3 = $(`<div id="html_b63308be54d718348fad7e8347108ef3" style="width: 100.0%; height: 100.0%;">SALER: 5721.23 m² of green area</div>`)[0];
+                popup_a502c9d5ec2acebc4a297f46fa7b4676.setContent(html_b63308be54d718348fad7e8347108ef3);
+            
+        
+
+        circle_marker_43dbdd4361ff96f501b718dee4f35364.bindPopup(popup_a502c9d5ec2acebc4a297f46fa7b4676)
+        ;
+
+        
+    
+    
+            var circle_marker_e7d8420b9daac5de0b372170967e7e4d = L.circleMarker(
+                [39.48832788483066, -0.37248136846962393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a3a2398aec8fcbd5d659634282b7ebbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6420d31b17bd72518810b6774cabc89d = $(`<div id="html_6420d31b17bd72518810b6774cabc89d" style="width: 100.0%; height: 100.0%;">SANT ANTONI: 8115.39 m² of green area</div>`)[0];
+                popup_a3a2398aec8fcbd5d659634282b7ebbb.setContent(html_6420d31b17bd72518810b6774cabc89d);
+            
+        
+
+        circle_marker_e7d8420b9daac5de0b372170967e7e4d.bindPopup(popup_a3a2398aec8fcbd5d659634282b7ebbb)
+        ;
+
+        
+    
+    
+            var circle_marker_761ed106719c2b7fd0b2cd29d048f1f9 = L.circleMarker(
+                [39.471050487640746, -0.3757455715899524],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_5c20cf2cba10f8b94be98eb17e5f9a05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b4b8080970bb8605b3138c9daa2cdc2 = $(`<div id="html_8b4b8080970bb8605b3138c9daa2cdc2" style="width: 100.0%; height: 100.0%;">SANT FRANCESC: 28222.93 m² of green area</div>`)[0];
+                popup_5c20cf2cba10f8b94be98eb17e5f9a05.setContent(html_8b4b8080970bb8605b3138c9daa2cdc2);
+            
+        
+
+        circle_marker_761ed106719c2b7fd0b2cd29d048f1f9.bindPopup(popup_5c20cf2cba10f8b94be98eb17e5f9a05)
+        ;
+
+        
+    
+    
+            var circle_marker_637567dc18ea86106012c14cc2a46515 = L.circleMarker(
+                [39.45300308036108, -0.4059386786600215],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_7b04478016a93215de64af60528e29a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ec61137f02816191fa89186b9ce1648 = $(`<div id="html_5ec61137f02816191fa89186b9ce1648" style="width: 100.0%; height: 100.0%;">SANT ISIDRE: 19128.47 m² of green area</div>`)[0];
+                popup_7b04478016a93215de64af60528e29a1.setContent(html_5ec61137f02816191fa89186b9ce1648);
+            
+        
+
+        circle_marker_637567dc18ea86106012c14cc2a46515.bindPopup(popup_7b04478016a93215de64af60528e29a1)
+        ;
+
+        
+    
+    
+            var circle_marker_4ad50014b8e2e2201c507f55139b48f8 = L.circleMarker(
+                [39.49210425516218, -0.3625575280584268],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_51202c2ec67e13fb6e15e85560d11a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_916042df8c07a2254cff91ab02ed1bcb = $(`<div id="html_916042df8c07a2254cff91ab02ed1bcb" style="width: 100.0%; height: 100.0%;">SANT LLORENS: 85354.36 m² of green area</div>`)[0];
+                popup_51202c2ec67e13fb6e15e85560d11a14.setContent(html_916042df8c07a2254cff91ab02ed1bcb);
+            
+        
+
+        circle_marker_4ad50014b8e2e2201c507f55139b48f8.bindPopup(popup_51202c2ec67e13fb6e15e85560d11a14)
+        ;
+
+        
+    
+    
+            var circle_marker_c684983c3a95c9984f81ebc17be6f5ef = L.circleMarker(
+                [39.48836703990258, -0.3653814461520357],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_7eac8f6a0751ad9b8aaeb17c430fd042 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbc8b4214a1038aed2d424fc07a30def = $(`<div id="html_dbc8b4214a1038aed2d424fc07a30def" style="width: 100.0%; height: 100.0%;">SANT LLORENÇ: 282.00 m² of green area</div>`)[0];
+                popup_7eac8f6a0751ad9b8aaeb17c430fd042.setContent(html_dbc8b4214a1038aed2d424fc07a30def);
+            
+        
+
+        circle_marker_c684983c3a95c9984f81ebc17be6f5ef.bindPopup(popup_7eac8f6a0751ad9b8aaeb17c430fd042)
+        ;
+
+        
+    
+    
+            var circle_marker_5e721fa9a0d1a19165127b48e67da193 = L.circleMarker(
+                [39.44494548246021, -0.3897206572117787],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_76db70452784f90281566429af142ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feeb8cb17020e21c001ef9683a0cda93 = $(`<div id="html_feeb8cb17020e21c001ef9683a0cda93" style="width: 100.0%; height: 100.0%;">SANT MARCEL.LI: 16633.88 m² of green area</div>`)[0];
+                popup_76db70452784f90281566429af142ca1.setContent(html_feeb8cb17020e21c001ef9683a0cda93);
+            
+        
+
+        circle_marker_5e721fa9a0d1a19165127b48e67da193.bindPopup(popup_76db70452784f90281566429af142ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_1245e103c6033084b3c72ba9f236e297 = L.circleMarker(
+                [39.48301088364588, -0.4034109100822291],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_553df09a1d2ecd76071d566f604ac894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00d437de5c2c0a1d70395757ccec7f8d = $(`<div id="html_00d437de5c2c0a1d70395757ccec7f8d" style="width: 100.0%; height: 100.0%;">SANT PAU: 337060.89 m² of green area</div>`)[0];
+                popup_553df09a1d2ecd76071d566f604ac894.setContent(html_00d437de5c2c0a1d70395757ccec7f8d);
+            
+        
+
+        circle_marker_1245e103c6033084b3c72ba9f236e297.bindPopup(popup_553df09a1d2ecd76071d566f604ac894)
+        ;
+
+        
+    
+    
+            var circle_marker_52d88e08ab2afd77b87ecb5e5cefea17 = L.circleMarker(
+                [39.47620881994398, -0.375365786874309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_18eb8a9fd1ba1415836a1d3e3ed87adb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34dabb7db2ff17d26fb8cb58d68b68ea = $(`<div id="html_34dabb7db2ff17d26fb8cb58d68b68ea" style="width: 100.0%; height: 100.0%;">SEU: 4742.44 m² of green area</div>`)[0];
+                popup_18eb8a9fd1ba1415836a1d3e3ed87adb.setContent(html_34dabb7db2ff17d26fb8cb58d68b68ea);
+            
+        
+
+        circle_marker_52d88e08ab2afd77b87ecb5e5cefea17.bindPopup(popup_18eb8a9fd1ba1415836a1d3e3ed87adb)
+        ;
+
+        
+    
+    
+            var circle_marker_b68546d0eee9d125f61a89bbd754bedb = L.circleMarker(
+                [39.471194312465336, -0.4095412450914534],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_f23641c3422f690042a70770338a151f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64710f4e45a11152e44def3297b73399 = $(`<div id="html_64710f4e45a11152e44def3297b73399" style="width: 100.0%; height: 100.0%;">SOTERNES: 53966.26 m² of green area</div>`)[0];
+                popup_f23641c3422f690042a70770338a151f.setContent(html_64710f4e45a11152e44def3297b73399);
+            
+        
+
+        circle_marker_b68546d0eee9d125f61a89bbd754bedb.bindPopup(popup_f23641c3422f690042a70770338a151f)
+        ;
+
+        
+    
+    
+            var circle_marker_0cd85938a3203a01053450163bad5969 = L.circleMarker(
+                [39.479931251420744, -0.3890346454651998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_7568e47d4ac5a54021940938c5fdb33f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5915a646b43c9d4b3f914dff67b0622 = $(`<div id="html_c5915a646b43c9d4b3f914dff67b0622" style="width: 100.0%; height: 100.0%;">TENDETES: 1157.43 m² of green area</div>`)[0];
+                popup_7568e47d4ac5a54021940938c5fdb33f.setContent(html_c5915a646b43c9d4b3f914dff67b0622);
+            
+        
+
+        circle_marker_0cd85938a3203a01053450163bad5969.bindPopup(popup_7568e47d4ac5a54021940938c5fdb33f)
+        ;
+
+        
+    
+    
+            var circle_marker_d78c2b6cfe3197699d45ffadd5822e01 = L.circleMarker(
+                [39.48889972751006, -0.37959095527648234],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_a60bef94537c1b0a6efe38dbe3f4dd8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5f8a55ce860f40ec6201d4d1069384e = $(`<div id="html_d5f8a55ce860f40ec6201d4d1069384e" style="width: 100.0%; height: 100.0%;">TORMOS: 10082.27 m² of green area</div>`)[0];
+                popup_a60bef94537c1b0a6efe38dbe3f4dd8a.setContent(html_d5f8a55ce860f40ec6201d4d1069384e);
+            
+        
+
+        circle_marker_d78c2b6cfe3197699d45ffadd5822e01.bindPopup(popup_a60bef94537c1b0a6efe38dbe3f4dd8a)
+        ;
+
+        
+    
+    
+            var circle_marker_1f9846b53cd083f61e061542b77b3842 = L.circleMarker(
+                [39.43510523271624, -0.3918569472303828],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_68cdaad9a4d5bed330f645e5aa95eaa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50eaad77f69554e67471c9e3c3f6db19 = $(`<div id="html_50eaad77f69554e67471c9e3c3f6db19" style="width: 100.0%; height: 100.0%;">TORRE: 8178.50 m² of green area</div>`)[0];
+                popup_68cdaad9a4d5bed330f645e5aa95eaa9.setContent(html_50eaad77f69554e67471c9e3c3f6db19);
+            
+        
+
+        circle_marker_1f9846b53cd083f61e061542b77b3842.bindPopup(popup_68cdaad9a4d5bed330f645e5aa95eaa9)
+        ;
+
+        
+    
+    
+            var circle_marker_53155f775a988dcbbdce47a8e49f59c6 = L.circleMarker(
+                [39.49554726110406, -0.3758320331830292],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_77c08da0f97a6cdbd20dd4fc37a01b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3cbd1e18392f278fefbf879bb7dcc1f = $(`<div id="html_c3cbd1e18392f278fefbf879bb7dcc1f" style="width: 100.0%; height: 100.0%;">TORREFIEL: 26788.58 m² of green area</div>`)[0];
+                popup_77c08da0f97a6cdbd20dd4fc37a01b15.setContent(html_c3cbd1e18392f278fefbf879bb7dcc1f);
+            
+        
+
+        circle_marker_53155f775a988dcbbdce47a8e49f59c6.bindPopup(popup_77c08da0f97a6cdbd20dd4fc37a01b15)
+        ;
+
+        
+    
+    
+            var circle_marker_21d1c034d4ff76e1c2f09b707b60d5ba = L.circleMarker(
+                [39.465891400642946, -0.4005655536981803],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_9f7d9de17a7733ba35af4e087760862e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99eb0b4b58ba8de11cdda792c2a2cb42 = $(`<div id="html_99eb0b4b58ba8de11cdda792c2a2cb42" style="width: 100.0%; height: 100.0%;">TRES FORQUES: 63736.05 m² of green area</div>`)[0];
+                popup_9f7d9de17a7733ba35af4e087760862e.setContent(html_99eb0b4b58ba8de11cdda792c2a2cb42);
+            
+        
+
+        circle_marker_21d1c034d4ff76e1c2f09b707b60d5ba.bindPopup(popup_9f7d9de17a7733ba35af4e087760862e)
+        ;
+
+        
+    
+    
+            var circle_marker_eee13e97f4f26af154929b81c5fa09f3 = L.circleMarker(
+                [39.48281884273235, -0.36935100592545206],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_0f9944e36053ab7c50e0a5b82a6d66ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1681c36a344017bea491794bdb7d58ee = $(`<div id="html_1681c36a344017bea491794bdb7d58ee" style="width: 100.0%; height: 100.0%;">TRINITAT: 182208.49 m² of green area</div>`)[0];
+                popup_0f9944e36053ab7c50e0a5b82a6d66ae.setContent(html_1681c36a344017bea491794bdb7d58ee);
+            
+        
+
+        circle_marker_eee13e97f4f26af154929b81c5fa09f3.bindPopup(popup_0f9944e36053ab7c50e0a5b82a6d66ae)
+        ;
+
+        
+    
+    
+            var circle_marker_482b2b14faa7cbac045d7e79a409e857 = L.circleMarker(
+                [39.4612045877728, -0.40323587036452024],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_c7e3030bb4f0bed4a43c8f69377a235a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_279baf184b01898b08455385ae70ae33 = $(`<div id="html_279baf184b01898b08455385ae70ae33" style="width: 100.0%; height: 100.0%;">VARA DE QUART: 43984.83 m² of green area</div>`)[0];
+                popup_c7e3030bb4f0bed4a43c8f69377a235a.setContent(html_279baf184b01898b08455385ae70ae33);
+            
+        
+
+        circle_marker_482b2b14faa7cbac045d7e79a409e857.bindPopup(popup_c7e3030bb4f0bed4a43c8f69377a235a)
+        ;
+
+        
+    
+    
+            var circle_marker_41a1ff1c085d8d972c569594ce22e6af = L.circleMarker(
+                [39.473893207202025, -0.36991285822798814],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+    
+        var popup_198c15e8a67063a3008ca1e9bf1e1f6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40b1832f2c6dd3ca0de7653cd4fb479 = $(`<div id="html_e40b1832f2c6dd3ca0de7653cd4fb479" style="width: 100.0%; height: 100.0%;">XEREA: 15789.41 m² of green area</div>`)[0];
+                popup_198c15e8a67063a3008ca1e9bf1e1f6d.setContent(html_e40b1832f2c6dd3ca0de7653cd4fb479);
+            
+        
+
+        circle_marker_41a1ff1c085d8d972c569594ce22e6af.bindPopup(popup_198c15e8a67063a3008ca1e9bf1e1f6d)
+        ;
+
+        
+    
+    
+            tile_layer_4438b518ed827fc04ca923269d122355.addTo(map_250c5e1c27f9ff79213c012e491e83ab);
+        
+</script>
+</html>
