@@ -1,0 +1,23 @@
+postgresql://<USUARIO>:<CONTRASEÑA>@<DIRECCION_IP>:<PUERTO>/<NOMBRE_BASE_DATOS>
+
+
+Usuario: Tratamos de poner postgres
+Contraseña: postgres
+DIRECCION IP = IP Pública
+Puerto: 5432 (Suele ser)
+
+PUERTOS COMUNES
+POSTGRES 5432
+MYSQL 3306
+
+LIBRERIA QUE HAY QUE INSTALAR:
+PSYCOPG2-BINARY
+
+LIBRERIA PARA USAR PANDAS PARA todos los SQL
+pip install sqlalchemy 
+
+from sqlalchemy import create_engine
+
+engine = create_engine(churro)
+
+Quiero usar sqlalchemy y pd para conectar una database de MYSQL
